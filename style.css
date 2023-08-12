@@ -1,0 +1,192 @@
+/* Basic styling for the navigation bar */
+ul.navbar {
+    list-style-type: none;
+    display: flex;
+    gap:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    padding: 0;
+    background-color:white;
+    overflow: hidden;
+}
+h2{
+    padding-left: 50;
+}
+content{
+    display: flex;
+    justify-content: center;
+
+
+}
+p1
+{
+    position: absolute;
+    left: -20px;
+     
+}
+
+body{
+
+    background-color: rgb(238, 234, 233);
+}
+
+li.navitem {
+    float: left;
+    
+}
+
+li.navitem a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navitem a:hover {
+    background-color: #555;
+}
+deni{ 
+    display: flex;
+    top:-78px;
+    right: -10px;
+    position: relative;
+    font-weight: 100px;
+ } 
+.header{
+    display:flex;
+    justify-content:space-between;
+}
+.gg-profile,
+.gg-profile::after,
+.gg-profile::before {
+ display: block;
+ box-sizing: border-box;
+ border: 2px solid;
+ border-radius: 100px
+}
+
+.gg-profile {
+ overflow: hidden;
+ transform: scale(var(--ggs,1));
+ width: 22px;
+ height: 22px;
+ position: relative
+}
+
+.gg-profile::after,
+.gg-profile::before {
+ content: "";
+ position: absolute;
+ top: 2px;
+ left: 5px;
+ width: 8px;
+ height: 8px
+}
+.header{
+    background-color:white;
+}
+gg-profile::after {
+    border-radius: 200px;
+    top: 11px;
+    left: 0px;
+    width: 18px;
+    height: 18px
+   } 
+   .gg-shopping-cart {
+       display: block;
+       box-sizing: border-box;
+       position: relative;
+       transform: scale(var(--ggs,1));
+       width: 20px;
+       height: 21px;
+       background:
+       linear-gradient(
+       to left,currentColor 12px,
+       transparent 0)
+       no-repeat -1px 6px/18px 2px,
+       linear-gradient(
+       to left,currentColor 12px,
+       transparent 0)
+       no-repeat 6px 14px/11px 2px,
+       linear-gradient(
+       to left,currentColor 12px,
+       transparent 0)
+       no-repeat 0 2px/4px 2px,
+       radial-gradient(
+       circle,currentColor 60%,
+       transparent 40%)
+       no-repeat 12px 17px/4px 4px,
+       radial-gradient(
+       circle,currentColor 60%,
+       transparent 40%)
+       no-repeat 6px 17px/4px 4px
+      }
+      
+      .gg-shopping-cart::after,
+      .gg-shopping-cart::before {
+       content: "";
+       display: block;
+       position: absolute;
+       box-sizing: border-box;
+       width: 2px;
+       height: 14px;
+       background: currentColor;
+       top: 2px;
+       left: 4px;
+       transform: skew(12deg)
+      }
+      
+      .gg-shopping-cart::after {
+       height: 10px;
+       top: 6px;
+       left: 16px;
+       transform: skew(-12deg)
+      } 
+      .gg-search {
+       box-sizing: border-box;
+       position: relative;
+       display: block;
+       transform: scale(var(--ggs,1));
+       width: 16px;
+       height: 16px;
+       border: 2px solid;
+       border-radius: 100%;
+       
+       right:20px;
+   
+      }
+      
+      .gg-search::after {
+       content: "";
+       display: block;
+       box-sizing: border-box;
+       position: absolute;
+       border-radius: 3px;
+       width: 2px;
+       height: 8px;
+       background: currentColor;
+       transform: rotate(-45deg);
+       top: 10px;
+       left: 12px
+      } 
+      .search{
+       display: flex;
+       gap:20px;
+       position: relative;
+       top:20px;
+       width: 100;
+       background-color: beige;
+       overflow: hidden;
+       
+      }
+      bodydeni{
+        background-color: azure;
+      }
+      body{
+        background: orangered;
+      }
+      .h3{
+         font-weight: 800;
+      }
+    
